@@ -1,0 +1,702 @@
+/* header styles */
+
+.header-wrapper {
+    background-color: burlywood;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.navbar-links ul {
+    display: flex;
+}
+.navbar-links ul li {
+    margin: 5px;
+}
+.toggle-button {
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: none;
+} 
+
+
+@media (max-width:768px) {
+    .navbar-links {
+        display: none;
+    }
+    .toggle-button {
+        display: block;
+    }
+    .header-wrapper {
+        flex-direction: column;
+    }
+    .navbar-links ul {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+    .navbar-links.activeNavigation {
+        display: block;
+    }
+}
+
+
+/* footer */
+
+.main-footer {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+}
+.footer-container {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 3%;
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container2 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+/* footer2 */
+.main-footer1 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+}
+.footer-container1 {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 37%; 
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container3 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 37%;
+}
+.p-footer2 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    /* margin-top: 10px; */
+}
+.p-footer:hover {
+    color: brown;
+}
+.p-footer3 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    margin-left: 10px;
+    /* margin-top: 50%; */
+}
+.p-footer1:hover {
+    color: brown;
+}
+
+/* footer2 */
+.main-footer {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+}
+.footer-container {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 2%;
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container2 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+/* footer2 */
+.main-footer2 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+}
+.footer-container4 {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 39%; 
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container5 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 39%;
+}
+.p-footer4 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    /* margin-top: 10px; */
+}
+.p-footer:hover {
+    color: brown;
+}
+.p-footer5 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    margin-left: 10px;
+    /* margin-top: 50%; */
+}
+.p-footer1:hover {
+    color: brown;
+}
+
+/* footer3 */
+.main-footer {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+}
+.footer-container {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 2%;
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container2 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+/* footer2 */
+.main-footer3 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    display: flex;
+}
+.footer-container6 {
+    width: 300px;
+    height: 20px;
+    color: white;
+    display: flex;
+    margin-top: 5%; 
+    
+}
+.footer-container:hover {
+    color: blue;
+}
+.logo {
+    margin-left: 20px;
+}
+.footer-container7 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.p-footer6 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    /* margin-top: 10px; */
+}
+.p-footer:hover {
+    color: brown;
+}
+.p-footer7 {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    margin-left: 10px;
+    /* margin-top: 50%; */
+}
+.p-footer1:hover {
+    color: brown;
+}
+
+/* .main-footer1 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    display: flex;
+    margin-top: 3%; 
+} */
+/* .footer-container3 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 18%;
+}
+.footer-container4 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 18%;
+}
+.main-footer2 {
+    max-width: 1366px;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-container5 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 6px;
+}
+.footer-container6 {
+    width: 800px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.footer-container6:hover {
+    color: whitesmoke;
+} */
+
+/* .bg-image {
+    background-image: url(../images/image1.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */ 
+.bg-image2 {
+    background-image: url(../images/aboutus.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image3 {
+    background-image: url(../images/tours.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* .bg-image4 {
+    background-image: url(../images/contactus.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+.map {
+    margin-top: 1px;
+    display: flex;
+    margin-left: 1px;
+}
+.contact-container {
+    width: 270px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 1px;
+}
+.h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    color: blueviolet;
+}
+.p {
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: brown;
+}
+.fa-solid fa-bars {
+    width: 75px;
+    height: 45px;
+    color: brown;
+}
+.burger-bar {
+    color: brown;
+    font-size: 20px;
+}
+.burger-bar:hover {
+    color: blue;
+}
+.info-container {
+    width: 420px;
+    height: 320px;
+    /* background-color: burlywood; */
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 690px;
+    font-size: 14px;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+.p-info {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.lessons {
+    margin-top: 10px;
+}
+.li-lessons {
+    margin-top: 15px;
+    margin-left: 5px;
+    justify-content: center;
+}
+.li-lessons:hover {
+    color: blueviolet;
+}
+.info-container1 {
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 700px;
+    font-size: 15px;
+    border-radius: 5%;
+}
+.info-container:hover {
+    color: blueviolet;
+}
+.contact-form {
+    margin-top: 56px;
+    margin-left: 27px;
+}
+
+.h2-body {
+    color: blue;
+    font-size: 14px;
+}
+.h3-body {
+    font-size: 25px;
+    width: 231px;
+    height: 112px;
+}
+.form-container {
+    max-width: 1088px;
+    width: 100%;
+    height: 288px;
+}
+.textarea-form {
+    max-width: 520px;
+    width: 100%;
+    height: 250px;
+    resize: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.input-form {
+    max-width: 252px;
+    width: 100%;
+    height: 50px;
+    margin-top: 17px;
+    /* margin-left: 5px; */
+}
+.button {
+    width: 252px;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    margin-top: 16px;
+    color: white;
+}
+.button:hover {
+    color: black;
+}
+.left-block {
+    max-width: 570px;
+    width: 100%;
+    height: 288px;
+    margin-top: 16px;
+}
+.right-block {
+    max-width: 368px;
+    width: 100%;
+    height: 288px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.form-wrapper {
+    display: flex;  
+}
+.email {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font-size: 5px;
+}
+.email:hover {
+    color: blueviolet;
+}
+.phone {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font-size: 5px;
+}
+.location {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font-size: 5px;
+}
+.main-container {
+    justify-content: space-between;
+    align-items: center; 
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
+    height: 280px;
+    margin-top: 25px;
+}
+.container1 {
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 0 auto;
+    /* display: flex; */
+    border: 2px solid brown;
+    position: relative;
+}
+.h2-hiking {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    color: blue;
+    position: absolute;
+}
+.p-hiking {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 65px;
+    position: absolute;
+    font-size: 15px;
+}
+.container2 {
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 0 auto;
+    /* display: flex; */
+    border: 2px solid brown;
+}
+.h2-hiking2 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    color: blue;
+}
+.p-hiking2 {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.container3 {
+    justify-content: center;
+    max-width: 430px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 0 auto;
+    /* display: flex; */
+    border: 2px solid brown;
+}
+
+/* slider */
+
+.slide {
+    width: 100%;
+}
+.image-slider {
+    max-width: 1366px;
+    width: 100%;
+    height: 550px;
+}
+.slider-wraper {
+    position: relative;
+    max-width: 1366px;
+    width: 100%;
+    height: 500px;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    border:none;
+}
+.arrow-left {
+    margin-top: 5%;
+    left: 30px;
+}
+.arrow-right {
+    margin-top: 5%;
+    right: 30px;
+}
+.image-title {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+.dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    display: flex;
+}
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.dot.active {
+    background-color: red;
+}
+
+/* filter tours */
+
+.filter-container {
+    max-width: 300px;
+    width: 100%; 
+   
+} 
+.search-block input {
+    padding: 10px;
+    width: 100%;
+}
+.search-block input:focus {
+    outline: none;
+}
+span {
+    display: block;
+    color: red;
+    margin: 5px;
+    font-style: italic;
+}
